@@ -1,0 +1,25 @@
+.navbar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+
+/* .navbar ul { */
+/*   width: 600px; */
+/*   margin-left: auto; */
+/*   margin-rigth: auto; */
+/*   display: inline-block; */
+/*   list-style-type: none; */
+/* } */
+
+.navbar ul li {p
+  display: inline;
+  background: url(images/hackathon.png) no-repeat bottom center;
+}
