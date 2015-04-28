@@ -19,7 +19,7 @@
 /*   list-style-type: none; */
 /* } */
 
-.navbar ul li {p
+.navbar ul li {
   display: inline;
   background: url(images/hackathon.png) no-repeat bottom center;
 }

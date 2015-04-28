@@ -1,0 +1,21 @@
+@font-face {
+    font-family: supermario;
+    src: url("../font/SuperMario256.ttf");
+}
+
+.hallo {
+    position: relative;
+    font-family: supermario;
+    color: #e6a000;
+}
+
+.footer {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../img/ground.svg");
+    background-repeat: repeat-x;
+    background-size: 50px;
+}
