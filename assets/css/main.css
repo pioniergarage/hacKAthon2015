@@ -37,6 +37,9 @@ body {
   left: 0;
   right: 0;
 }
+.navbar ul li {
+  display: inline;
+}
 /** All styles associated with the super mario theme */
 .ground {
   background-image: url("../img/ground.svg");
@@ -52,7 +55,7 @@ body {
 }
 .hallo {
   font-size: 30px;
-  margin: 0px 5px;
+  margin: 10px 5px 0px 5px;
   padding: 0px;
   font-family: supermario;
   color: white;
