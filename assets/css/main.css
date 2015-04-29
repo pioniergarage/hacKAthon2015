@@ -1,21 +1,59 @@
 @font-face {
-    font-family: supermario;
-    src: url("../font/SuperMario256.ttf");
+  font-family: supermario;
+  src: url("../font/SuperMario256.ttf");
 }
-
-.hallo {
-    position: relative;
-    font-family: supermario;
-    color: #e6a000;
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
-
+.column {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.center {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.center-justified {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  height: 100%;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
 .footer {
-    height: 70px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url("../img/ground.svg");
-    background-repeat: repeat-x;
-    background-size: 50px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/** All styles associated with the super mario theme */
+.ground {
+  background-image: url("../img/ground.svg");
+  background-repeat: repeat-x;
+  background-size: 50px;
+}
+.countdown {
+  border: 2px solid #ff0000;
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+  background-color: #ffb200;
+}
+.hallo {
+  font-size: 30px;
+  margin: 0px 5px;
+  padding: 0px;
+  font-family: supermario;
+  color: white;
 }
