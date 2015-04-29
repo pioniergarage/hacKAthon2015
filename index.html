@@ -5,25 +5,24 @@
 <body>
 <section class="navbar row center-justified">
     <ul>
-        <li><a href="index.html">hacKAthon</a></li>
-        <li><a href="subpages/about.html">Thema</a></li>
-        <li><a href="subpages/schedule.html">Ablauf</a></li>
-        <li><a href="subpages/sponsoring.html">Sponsoren</a></li>
-        <li><a href="subpages/partner.html">Partner</a></li>
-        <li><a href="subpages/faq.html">FAQ</a></li>
-        <li><a href="subpages/imprint.html">Impressum</a></li>
+        <li><div class="cloud1 nav-supermario"><a href="index.html">Home</a></div></li>
+        <li><div class="cloud2 nav-supermario"><a href="subpages/schedule.html">Ablauf</a></div></li>
+        <li><div class="cloud3 nav-supermario"><a href="subpages/partner.html">Partner</a></div></li>
+        <li><div class="cloud4 nav-supermario"><a href="subpages/faq.html">FAQ</a></div></li>
     </ul>
-
 </section>
 <section class="footer">
     <div class="ground container row center">
-        <div class="countdown row center center-justified">
-            <h1 class="hallo">0</h1>
-            <h1 class="hallo">Days</h1>
-            <h1 class="hallo">0</h1>
-            <h1 class="hallo">Hours</h1>
+        <div class="countdown row center">
+            <div class="clock"></div>
+            <h1 id="days" class="hallo">0</h1>
+            <h1 class="hallo">Tage</h1>
+            <h1 id="hours" class="hallo">0</h1>
+            <h1 class="hallo">Stunden</h1>
         </div>
     </div>
 </section>
+<script type="text/javascript" src="assets/js/countdown.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
