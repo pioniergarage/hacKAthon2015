@@ -1,28 +1,50 @@
 <html>
-<head>
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-<section class="navbar row center-justified">
-    <ul>
-        <li><div class="cloud1 nav-supermario"><a href="index.html">Home</a></div></li>
-        <li><div class="cloud2 nav-supermario"><a href="subpages/schedule.html">Ablauf</a></div></li>
-        <li><div class="cloud3 nav-supermario"><a href="subpages/partner.html">Partner</a></div></li>
-        <li><div class="cloud4 nav-supermario"><a href="subpages/faq.html">FAQ</a></div></li>
-    </ul>
-</section>
-<section class="footer">
-    <div class="ground container row center">
-        <div class="countdown row center">
-            <div class="clock"></div>
-            <h1 id="days" class="hallo">0</h1>
-            <h1 class="hallo">Tage</h1>
-            <h1 id="hours" class="hallo">0</h1>
-            <h1 class="hallo">Stunden</h1>
+    <head>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="row">
+            <section class="left"></section>
+            <section class="main column center-justified center">
+                    <section class="navbar">
+                        <ul id="tabs" class="row center-justified">
+                            <li><div class="cloud1 nav-supermario"><a href="index.html">Home</a></div></li>
+                            <li><div class="tab-two cloud2 nav-supermario"><a href="subpages/schedule.html">Ablauf</a></div></li>
+                            <li><div class="tab-three cloud3 nav-supermario"><a href="subpages/partner.html">Partner</a></div></li>
+                            <li><div class="tab-four cloud4 nav-supermario"><a href="subpages/faq.html">FAQ</a></div></li>
+                        </ul>
+                    </section>
+                    <section class="content column">
+                        <p style="font-family: pixelFont; text-align: justify; font-size: 18px;">
+                            Du hast seit Monaten eine Game-Idee und willst diese Verwirklichen? Du hast Flappy-Bird
+                            gesehen und
+                            dein erster Gedanke war "Hey, das kann ich auch"?
+                            Du hast dir ein tolles Prinzip zur Gamification von Anwendungen ausgedacht? Dann bist du bei
+                            uns genau richtig!
+                            Triff ein Wochenende lang coole Leute, sammle neue Erfahrung, designe und code dein
+                            Projekt und gewinne mit deinem Team coole Preise!
+                        </p>
+                    </section>
+            </section>
+            <section class="right row end">
+                <div><a href="subpages/imprint.html" class="imprint">Impressum</a></div>
+            </section>
         </div>
-    </div>
-</section>
-<script type="text/javascript" src="assets/js/countdown.min.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-</body>
+        <section class="footer">
+            <div class="ground container row center">
+                <div class="countdown row center">
+                    <div class="clock"></div>
+                    <h1 id="days">0</h1>
+                    <h1>Tage</h1>
+                    <h1 id="hours">0</h1>
+                    <h1>Stunden</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="assets/js/countdown.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+    </body>
 </html>
