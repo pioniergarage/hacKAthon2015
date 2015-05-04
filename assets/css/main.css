@@ -37,9 +37,6 @@
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
-.clickable {
-  cursor: pointer;
-}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -76,7 +73,6 @@ a {
   text-decoration: none;
   outline: 0;
   color: black;
-  cursor: pointer;
 }
 a:hover {
   color: #ffb200;
@@ -144,6 +140,22 @@ a:active {
   width: 35px;
   height: 31px;
   margin-right: 8px;
+}
+.schedule-day {
+  position: relative;
+  padding: 15px;
+}
+.schedule-day:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  background-image: url("../img/plant-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
 }
 .plant-middle {
   background-image: url("../img/plant-middle.svg");
