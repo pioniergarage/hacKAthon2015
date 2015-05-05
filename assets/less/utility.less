@@ -12,6 +12,8 @@
   flex-direction: column;
 }
 
+
+
 .center {
   -webkit-align-items: center;
   align-items: center;
@@ -42,3 +44,48 @@
   background: -moz-linear-gradient(#7396ef, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#7396ef, white); /* Standard syntax */
 }
+
+
+
+
+.img-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  flex-direction: row;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.img-cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+
+  padding: 10px;
+  margin: 10px;
+
+  text-align: center;
+
+}
+
+
+img {max-width:100%;}

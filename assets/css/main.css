@@ -38,34 +38,59 @@
   justify-content: flex-end;
 }
 .grad {
-  background: -webkit-linear-gradient(#7396ef, #ffffff);
+  background: -webkit-linear-gradient(#7396ef, white);
   /* For Safari 5.1 to 6.0 */
-
-  background: -o-linear-gradient(#7396ef, #ffffff);
+  background: -o-linear-gradient(#7396ef, white);
   /* For Opera 11.1 to 12.0 */
-
-  background: -moz-linear-gradient(#7396ef, #ffffff);
+  background: -moz-linear-gradient(#7396ef, white);
   /* For Firefox 3.6 to 15 */
-
-  background: linear-gradient(#7396ef, #ffffff);
+  background: linear-gradient(#7396ef, white);
   /* Standard syntax */
-
+}
+.img-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  align-items: center;
+  background-color: white;
+}
+.img-cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: -webkit-linear-gradient(#7396ef, #ffffff);
+  background: -webkit-linear-gradient(#7396ef, white);
   /* For Safari 5.1 to 6.0 */
-
-  background: -o-linear-gradient(#7396ef, #ffffff);
+  background: -o-linear-gradient(#7396ef, white);
   /* For Opera 11.1 to 12.0 */
-
-  background: -moz-linear-gradient(#7396ef, #ffffff);
+  background: -moz-linear-gradient(#7396ef, white);
   /* For Firefox 3.6 to 15 */
-
-  background: linear-gradient(#7396ef, #ffffff);
+  background: linear-gradient(#7396ef, white);
   /* Standard syntax */
-
 }
 * {
   display: block;
