@@ -100,6 +100,7 @@ p {
   font-size: 18px;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 a {
   outline: 0;
@@ -226,8 +227,8 @@ a:active {
   background-image: url("../img/plant-bottom.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   display: block;
 }
 .schedule {
