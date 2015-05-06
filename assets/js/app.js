@@ -5,7 +5,7 @@
 var app = (function (countdown) {
     var app = {};
     var COUNT_DOWN_DATE = new Date("2015-06-12T19:00:00.000Z");
-    var TAB_ID = "tabs";
+    var COLOR_CODES_HEADLINE = ["#e83d29", "#64b84f", "#f5d015", "#15a7d9"];
     var timerId;
 
     app.startCountDown = function () {
