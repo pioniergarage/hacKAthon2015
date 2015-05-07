@@ -59,27 +59,26 @@
   margin-right: 8px;
 }
 
-.plant-middle {
-  background-image: url("../img/plant-middle.svg");
-  background-repeat: repeat-y;
-  background-size: contain;
-  width: 50px;
-}
-
-.plant-top {
+.plant:before {
+  content: "";
   background-image: url("../img/plant-top.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  display: block;
+  position: absolute;
+  top: -40px;
   width: 50px;
   height: 50px;
+
 }
 
-.plant-bottom {
-  background-image: url("../img/plant-bottom.svg");
-  background-repeat: no-repeat;
+.plant {
+  background-image: url("../img/plant-middle.svg");
+  background-repeat: repeat-y;
   background-size: contain;
+  position: relative;
+  height: 100%;
   width: 50px;
-  height: 50px;
 }
 
 .countdown {
@@ -117,7 +116,8 @@
 
 .schedule-day {
   position: relative;
-  padding: 15px;
+  max-width: 500px;
+  padding: 15px 50px;
   margin: 30px 0;
 }
 
@@ -129,11 +129,19 @@
   background-image: url("../img/plant-bottom.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   display: block;
 }
 
 .schedule {
   margin-top: 50px;
+}
+
+.schedule-day .row {
+  margin-left: 50px;
+}
+
+.schedule-day .row .time {
+  min-width: 150px;
 }
