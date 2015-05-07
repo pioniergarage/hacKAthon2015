@@ -6,6 +6,10 @@
   font-family: pixelFont;
   src: url("../font/MP16REG.ttf");
 }
+@font-face {
+  font-family: pixelIconFont;
+  src: url(../font/MP16TO1.ttf);
+}
 .row {
   display: -webkit-flex;
   display: flex;
@@ -85,8 +89,8 @@ img {
   max-width: 100%;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
   background: -webkit-linear-gradient(#7396ef, #ffffff);
   /* For Safari 5.1 to 6.0 */
 
@@ -99,6 +103,7 @@ body {
   background: linear-gradient(#7396ef, #ffffff);
   /* Standard syntax */
 
+  background-repeat: no-repeat;
 }
 * {
   display: block;
@@ -136,6 +141,7 @@ p {
   line-height: 1.5;
 }
 a {
+  font-font: ;
   outline: 0;
   color: black;
   display: inline;
@@ -240,6 +246,14 @@ a:active {
   padding: 0px;
   font-family: supermario;
   color: white;
+}
+.sign-in {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  margin: 10px;
+  bottom: 55px;
+  right: 0;
 }
 .imprint {
   text-decoration: none;
