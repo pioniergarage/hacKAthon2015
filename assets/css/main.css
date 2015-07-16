@@ -82,7 +82,7 @@
   -moz-box-align: center;
   box-align: center;
   align-items: center;
-  background-color: white;
+  /* background-color: white; */
 }
 .img-cell {
   -webkit-box-flex: 1;
