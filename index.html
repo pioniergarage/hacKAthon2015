@@ -1,60 +1,238 @@
 <html>
     <head>
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="row full">
-            <section class="left">
-                <div class="row center" style="height: 150px;">
-                    <img src="assets/img/logo.svg" style="width: 100%; max-width: 250px; margin-left: 20px; margin-right: 50px; height: auto;">
+        <section  id="home" class="header">
+            <div class="row">
+                <div class="left">
+                    <div class="row center" style="height: 150px">
+                        <img class="brand" src="assets/img/logo.svg">
+                    </div>
                 </div>
-            </section>
-            <section class="main column center-justified center">
-                    <section class="navbar">
-                        <ul id="tabs" class="row center-justified">
-                            <li><div class="cloud1 nav-supermario"><a href="index.html">Home</a></div></li>
-                            <li><div class="tab-two cloud2 nav-supermario"><a href="subpages/schedule.html">Ablauf</a></div></li>
-                            <li><div class="tab-three cloud3 nav-supermario"><a href="subpages/partner.html">Partner</a></div></li>
-                            <li><div class="tab-four cloud4 nav-supermario"><a href="subpages/faq.html">FAQ</a></div></li>
+                <div class="main">
+                    <div class="navbar">
+                        <ul id="tabs" class="row">
+                            <div class="nav cloud1 nav-supermario"><a href="#schedule">Ablauf</a></div>
+                            <div class="nav cloud2 nav-supermario"><a href="#partner">Partner</a></div>
+                            <div class="nav cloud4 nav-supermario"><a href="#faq">FAQ</a></div>
+                            <div class="nav cloud3 nav-supermario"><a href="#contact">Kontakt</a></div>
                         </ul>
-                    </section>
-                    <section class="content column full">
+                    </div>
+                </div>
+                <div class="right"></div>
+                <section class="menubar" style="width: 100%;">
+                    <div class="menu nav-supermario align-right">
+                        <a href="#"><i style="font-weight: bold !important; font-size: 30px;" class="fa fa-bars"></i></a>
+                    </div>
+                </section>
+            </div>
+        </section>
 
+        <section class="content">
+            <div style="margin-bottom: 25px;">
+                <h1 class="sub-headline pixel">hac[KA]thon 2015</h1>
+                <h1 class="headline headline-supermario">Games and Gamification</h1>
+                <div class="row">
+                    <p class="pixel sub-headline" style="margin-right: 20px;">23. - 25. Oktober</p>
+                    <p><a href="http://goo.gl/maps/zovVb" target="_blank" class="pixel sub-headline">Karlsruhe</a></p>
+                </div>
+            </div>
+
+            <p style="text-align: justify;">
+                Du hast eine Game-Idee und willst diese verwirklichen? Du hast Flappy-Bird
+                gesehen und dein erster Gedanke war "Hey, das kann ich auch"?
+                Du hast dir ein tolles Prinzip zur Gamification von Anwendungen ausgedacht? Dann bist du bei uns
+                genau richtig!
+                Treffe ein Wochenende lang coole Leute, sammle neue Erfahrung und gewinne mit deinem Team tolle
+                Preise. Verwirkliche deine Idee und habe Spass!
+            </p>
+
+            <div class="divider"></div>
+
+            <h1 id="schedule" class="pixel sub-headline">Ablauf</h1>
+            <div class="column center-justified">
+                <div class="schedule-item">
+                    <div class="row" style="height: 220px;">
                         <div>
-                            <h1 style="font-family: pixelFont;">hac[KA]thon 2015</h1>
-                            <h1 id="headline" style="font-family: supermario; font-size: 80px; margin: 0; padding: 0;">Games and Gamification</h1>
-                            <div class="row"><p style="margin-right: 20px;">23. - 25. Oktober</p><p><a href="http://goo.gl/maps/zovVb">Karlsruhe</a></p></div>
-
+                            <div class="plant"></div>
                         </div>
 
-                        <p style="text-align: justify;">
-                            Du hast eine Game-Idee und willst diese verwirklichen? Du hast Flappy-Bird
-                            gesehen und dein erster Gedanke war "Hey, das kann ich auch"?
-                            Du hast dir ein tolles Prinzip zur Gamification von Anwendungen ausgedacht? Dann bist du bei  uns genau richtig!
-                            Treffe ein Wochenende lang coole Leute, sammle neue Erfahrung und gewinne mit deinem Team tolle Preise. Verwirkliche deine Idee und habe Spass!
+                        <div class="column schedule">
+                            <div class="schedule-day column">
+                                <p style="padding-bottom: 16px;">TAG 1: Freitag, 23.10.2015, <a href="https://goo.gl/maps/KKsIO" target="_blank">Cyberforum Karlsruhe</a></p>
+                                <div class="row">
+                                    <p class="time">18:00 Uhr</p>
+                                    <p>Kickoff</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">20:00 Uhr</p>
+                                    <p>Teamfindung / Get-Together</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="row" style="height: 340px;">
+                        <div>
+                            <div class="plant"></div>
+                        </div>
+
+                        <div class="column schedule">
+                            <div class="schedule-day column">
+                                <p style="padding-bottom: 16px;">TAG 2: Samstag, 24.10.2015, <a href="https://goo.gl/maps/uV8DB" target="_blank">Informatik Hauptgebäude, KIT </a></p>
+                                <div class="row">
+                                    <p class="time">09:00 Uhr</p>
+                                    <p>Registrierung</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">09:30 Uhr</p>
+                                    <p>Frühstück und Ideenaustausch</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">10:00 Uhr</p>
+                                    <p>START Coding</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">12:30 Uhr</p>
+                                    <p>Mittagessen</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">18:30 Uhr</p>
+                                    <p>Abendessen</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">Open End</p>
+                                    <p>Programmieren</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="row" style="height: 280px;">
+                        <div>
+                            <div class="plant"></div>
+                        </div>
+
+                        <div class="column schedule">
+                            <div class="schedule-day column">
+                                <p style="padding-bottom: 16px;">
+                                    TAG 3: Sonntag 25.10.2015, <a href=" https: //goo. gl/maps/uV8DB">Informatik Hauptgebäude, KIT </a>
+                                </p>
+                                <div class="row">
+                                    <p class="time">09:00 Uhr</p>
+                                    <p>Frühstück</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">13:00 Uhr</p>
+                                    <p>Mittagessen</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">14:00 Uhr</p>
+                                    <p>DEADLINE Coding</p>
+                                </div>
+                                <div class="row">
+                                    <p class="time">15:30 Uhr</p>
+                                    <p>Vorstellung / Preisverleihung</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <h1 id="partner" class="pixel sub-headline">Unsere Sponsoren</h1>
+            <div class="img-row" style="width: 100%">
+                <div class="img-cell">
+                    <a href="http://www.microsoft.com/de-de/" target="_blank"><img src="assets/img/MSFT_logo.svg"></a>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <h1 class="pixel sub-headline">Veranstalter</h1>
+            <div class="img-row" style="width: 100%">
+                <div class="img-cell">
+                    <a href="http://pioniergarage.de" target="_blank"><img src="http://www.pioniergarage.de/webseite/wp-content/uploads/2013/05/PionierGarageLogo.png"></a>
+                </div>
+                <div class="img-cell" style="width:100%;">
+                    <a href="https://www.informatik.kit.edu/" target="_blank"><img class="img-kit" src="assets/img/Logo_KIT.svg"></a>
+                </div>
+                <div class="img-cell">
+                    <a href="https://www.cyberforum.de/startseite/" target="_blank"><img class="img-cf" src="assets/img/cyberforum.svg"></a>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <h1 id="faq" class="pixel sub-headline">FAQ</h1>
+
+            <div class="column">
+                <div style="margin-bottom: 30px;">
+                    <h3 class="pixel">Was ist ein Hackathon überhaupt?</h3>
+                    <p style="text-align: justify;">Bei einem Hackathon geht es darum, an einem Wochenende mit anderen Entwicklern an spannenden
+                        Ideen und Prototypen zu arbeiten. Das Ziel ist es Mit nur der Idee zu starten und am Ende einen vorführbaren
+                        Prototypen zu haben.
+                    </p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h3 class="pixel">Was wird gestellt, was müssen wir mitbringen?</h3>
+                    <p style="text-align: justify;">Wir stellen die Räumlichkeiten, Internet Zugang und Verpflegung. Du musst alles
+                        mitbringen was du zum programmieren brauchst (also Laptop und evtl. weitere benötigte Hardware).
+                        Für einen Internet Zugang per Kabel, musst du ein LAN-Kabel mitzubringen.</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h3 class="pixel">Ich hab noch nie ein Spiel programmiert. Kann ich trotzdem teilnehmen?</h3>
+                    <p style="text-align: justify;">Ja, natürlich! Als erstes geht es in einem Hackathon auch darum etwas neues zu lernen. Außerdem
+                        gibt es als weiteren Themenbereich auch noch Gamification. Unter diesm Thema können auch Lösungen
+                        entwickelt werden, die spielerisch andere Probleme lösen.
                         </p>
-                    </section>
-            </section>
-            <section class="right row end">
-                <div><a href="http://pioniergarage.de/webseite/impressum/" class="imprint">Impressum</a></div>
-            </section>
-        </div>
+                </div>
+                <div style="margin-bottom: 30px">
+                    <h3 class="pixel">Ich würde gerne eine App/ etwas für Wearables/3D Brille/Drohne/Kinect
+                        machen. Darf ich das?</h3>
+                    <p style="text-align: justify;">Es gibt keine Einschränkungen welche Platformen oder Technologien benutzt werden. Du musst nur
+                        alle benötigte Soft- und Hardware selber mitbringen.
+                    </p>
+                </div>
+                <div style="margin-bottom: 30px">
+                    <h3 class="pixel">Gibt es Schlafmöglichkeiten?</h3>
+                    <p style="text-align: justify;">Wir werden einen Raum mit einigen Matratzen austatten, die ihr benutzen könnt. Es wäre schön
+                        wenn ihr dazu Decken oder Schlafsäcke mitbringen könntet. Für Teilnehmer, die nicht aus Karlsruhe
+                        kommen, steht eine begrenzte Anzahl an Schlafmöglichkeiten zur Verfügung. Schreibt uns bei bitte
+                        Bedarf an.
+                    </p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <h1 id="contact" class="pixel sub-headline">Kontakt</h1>
+
+            <p class="pixel">Hast du noch weitere Fragen oder Anregungen? Dann schreib uns doch einfach eine Mail an die
+                Addresse
+                <a href="mailto:hackathon@pioniergarage.de?subject=Nachfrage Hackathon 2015&body=Hallo liebes Hackathon Team,">hackathon@pioniergarage.de</a>
+            </p>
+
+            <div style="width: 100%">
+                <a class="align-right" href="http://pioniergarage.de/webseite/impressum/"><p class="pixel">Impressum</p></a>
+            </div>
+        </section>
+
         <section class="footer">
-            <!-- <img class="sign-in" src="assets/img/sign.svg"> -->
+            <img class="sign-in" src="assets/img/sign.svg">
             <div class="ground container row center">
-                <div class="countdown row center">
-                    <div class="clock"></div>
-                    <h1 id="days">0</h1>
-                    <h1>Tage</h1>
-                    <h1 id="hours">0</h1>
-                    <h1>Stunden</h1>
+                <div style="width: 100%">
+                    <div class="sign-in-small">Anmelden</div>
                 </div>
             </div>
         </section>
 
         <!-- Javascript -->
         <script type="text/javascript" src="assets/js/countdown.min.js"></script>
+        <script type="text/javascript" src="assets/js/rainbowify.js"></script>
         <script type="text/javascript" src="assets/js/app.js"></script>
     </body>
 </html>

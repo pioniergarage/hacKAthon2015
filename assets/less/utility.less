@@ -39,8 +39,13 @@
   height: 100%;
 }
 
-.right {
+.align-right {
   float: right;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .end {
@@ -76,8 +81,6 @@
   -moz-box-align: center;
   box-align: center;
   align-items: center;
-
-  background-color: white;
 }
 
 .img-cell {
@@ -91,8 +94,18 @@
   margin: 10px;
 
   text-align: center;
-
 }
 
+.img-cell img {
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+}
 
-img {max-width:100%;}
+.img-cell .img-kit {
+  width: 60%;
+}
+
+.img-cell .img-cf {
+  width: 60%;
+}

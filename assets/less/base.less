@@ -5,8 +5,50 @@ body {
   background-repeat: no-repeat;
 }
 
-* {
- display: block;
+.header {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.headline {
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-headline {
+  font-size: 24px;
+}
+
+.nav {
+  width: 100%;
+  min-width: 100px;
+  height: 150px;
+  .row;
+  .center;
+  .center-justified;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.brand {
+  width: 100%;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-right: 70px;
+  height: auto;
+  min-width: 100px
+}
+
+.menu {
+  margin-top: 25px;
+  margin-right: 25px;
+  .row;
+  .center;
+  .center-justified;
 }
 
 .left, .right {
@@ -15,7 +57,30 @@ body {
 
 .main {
   width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 70px;
+  max-width: 930px;
+  .column;
+}
+
+.schedule-item {
+  width: 60%;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider {
+  height: 200px;
 }
 
 .footer {
@@ -27,7 +92,8 @@ body {
 }
 
 .navbar {
-  margin-bottom: 70px;
+  min-height: 150px;
+  width: 100%
 }
 
 .navbar ul {
@@ -49,17 +115,13 @@ p {
 
 a {
   outline: 0;
-  color: black;
+  color: @primary-color;
   display: inline;
 
   &:hover {
-    color: #ffb200;
+    color: @accented-color;
   }
   &:active {
-    color: #ffb200;
+    color: @accented-color;
   }
-}
-
-.content {
-  max-width: 910px;
 }
