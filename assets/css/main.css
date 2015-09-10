@@ -105,6 +105,9 @@
   p {
     font-size: 15px !important;
   }
+  .divider {
+    height: 100px !important;
+  }
 }
 @media only screen and (max-height: 600px) {
   .content {
@@ -381,6 +384,31 @@ a:hover {
 }
 a:active {
   color: #ffb200;
+}
+.dropdown,
+.dropdown > dd,
+.dropdown > dt {
+  margin: 0;
+  padding: 0;
+}
+.dropdown > dd {
+  position: relative;
+}
+.dropdown dd > ul {
+  margin: 0;
+  padding: 5px 25px;
+  list-style: none;
+  background: #fff;
+  border: 2px solid black;
+  display: none;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: auto;
+}
+.dropdown dd > li {
+  margin: 5px;
+  padding: 0px;
 }
 /** All styles associated with the super mario theme */
 .headline-supermario {

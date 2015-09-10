@@ -25,7 +25,17 @@
                 <div class="right"></div>
                 <section class="menubar" style="width: 100%;">
                     <div class="menu nav-supermario align-right">
-                        <a href="#"><i style="font-weight: bold !important; font-size: 30px;" class="fa fa-bars"></i></a>
+                        <dl class="dropdown">
+                            <dt><a href="#" id="dropdown-toggle"><i style="font-weight: bold !important; font-size: 30px;" class="fa fa-bars"></i></a></dt>
+                            <dd>
+                                <ul id="dropdown">
+                                    <li><a class="pixel" href="#schedule">Ablauf</a></li>
+                                    <li><a class="pixel" href="#partner">Partner</a></li>
+                                    <li><a class="pixel" href="#faq">FAQ</a></li>
+                                    <li><a class="pixel" href="#contact">Kontakt</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
                     </div>
                 </section>
             </div>
@@ -231,7 +241,7 @@
         </section>
 
         <!-- Javascript -->
-        <script type="text/javascript" src="assets/js/countdown.min.js"></script>
+        <script type="text/javascript" src="assets/js/dropdown.js"></script>
         <script type="text/javascript" src="assets/js/rainbowify.js"></script>
         <script type="text/javascript" src="assets/js/app.js"></script>
     </body>
