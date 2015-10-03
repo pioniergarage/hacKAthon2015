@@ -199,18 +199,14 @@
   justify-content: flex-end;
 }
 .grad {
-  background: -webkit-linear-gradient(#7396ef, #ffffff);
+  background: -webkit-linear-gradient(#7396ef, white);
   /* For Safari 5.1 to 6.0 */
-
-  background: -o-linear-gradient(#7396ef, #ffffff);
+  background: -o-linear-gradient(#7396ef, white);
   /* For Opera 11.1 to 12.0 */
-
-  background: -moz-linear-gradient(#7396ef, #ffffff);
+  background: -moz-linear-gradient(#7396ef, white);
   /* For Firefox 3.6 to 15 */
-
-  background: linear-gradient(#7396ef, #ffffff);
+  background: linear-gradient(#7396ef, white);
   /* Standard syntax */
-
 }
 .img-row {
   display: -webkit-box;
@@ -249,21 +245,20 @@
 .img-cell .img-small {
   width: 60%;
 }
+.img-cell .img-extra-small {
+  width: 20%;
+}
 body {
   margin: 0;
   height: 100%;
-  background: -webkit-linear-gradient(#7396ef, #ffffff);
+  background: -webkit-linear-gradient(#7396ef, white);
   /* For Safari 5.1 to 6.0 */
-
-  background: -o-linear-gradient(#7396ef, #ffffff);
+  background: -o-linear-gradient(#7396ef, white);
   /* For Opera 11.1 to 12.0 */
-
-  background: -moz-linear-gradient(#7396ef, #ffffff);
+  background: -moz-linear-gradient(#7396ef, white);
   /* For Firefox 3.6 to 15 */
-
-  background: linear-gradient(#7396ef, #ffffff);
+  background: linear-gradient(#7396ef, white);
   /* Standard syntax */
-
   background-repeat: no-repeat;
 }
 .header {
@@ -277,6 +272,10 @@ body {
 }
 .sub-headline {
   font-size: 24px;
+}
+.sub-sub-headline {
+  font-size: 16px;
+  margin: 15px;
 }
 .nav {
   width: 100%;
@@ -373,7 +372,7 @@ p {
 }
 a {
   outline: 0;
-  color: #000000;
+  color: black;
   display: inline;
 }
 a:hover {
